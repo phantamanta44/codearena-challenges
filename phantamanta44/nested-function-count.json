@@ -1,4 +1,4 @@
 {
   "name": "Nested Function Count",
-  "desc": "Write a function `unnest(f: Funciton): Integer` that counts the number of layers in a \"nested\" doubling function. For example, `unnest( x => ( x => ( x => x*2 )(x) )(x) )` would produce `2`."
+  "desc": "Write a function `unnest(f: Function): Integer` that counts the number of layers in a \"nested\" doubling function. For example, `unnest( x => ( x => ( x => x*2 )(x) )(x) )` would produce `2`."
 }

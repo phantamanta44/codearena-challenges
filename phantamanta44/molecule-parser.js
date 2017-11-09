@@ -9,7 +9,7 @@ for (let i = 0; i < 50; i++) {
   for (const key in ci.a) { if (ci.a.hasOwnProperty(key)) add(key, ci.a[key] * a); }
   for (const key in ai.a) { if (ai.a.hasOwnProperty(key)) add(key, ai.a[key] * b); }
   let str = '';
-  if (ci.p && a > 1) { str += `(${ci.f})${a}`; } else { str += `${ci.f}${a}` }
-  if (ai.p && b > 1) { str += `(${ai.f})${b}`; } else { str += `${ai.f}${b}` }
+  if (ci.p && a > 1) { str += `(${ci.f})${a}`; } else { str += `${ci.f}${a !== 1 ? a : ''}` }
+  if (ai.p && b > 1) { str += `(${ai.f})${b}`; } else { str += `${ai.f}${b !== 1 ? b : ''}` }
   Test.assertDeepEquals(atoms, parse(str));
 }

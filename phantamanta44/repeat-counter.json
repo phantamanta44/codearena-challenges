@@ -1,0 +1,4 @@
+{
+  "name": "Repeat Counter",
+  "desc": "Write a function `repeats(s: String): Integer` that returns the length of the longest substring of repeated characters in a string. For example, `repeats(\"aaaBBccccD\")` would produce `4`."
+}

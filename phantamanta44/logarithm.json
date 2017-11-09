@@ -1,0 +1,4 @@
+{
+  "name": "Logarithm",
+  "desc": "Write a function `logarithm(n: Number, base: Number): Number` that calculates the logarithm of a number in a base. For example, `logarithm(9, 3)` would produce 2."
+}

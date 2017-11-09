@@ -7,7 +7,7 @@ for (let i = 0; i < 50; i++) {
   const atoms = {};
   const add = (e, n) => { if (atoms.hasOwnProperty(e)) { atoms[e] += n; } else { atoms[e] = n } };
   for (const key in ci.a) { if (ci.a.hasOwnProperty(key)) add(key, ci.a[key] * a); }
-  for (const key in ai.a) { if (ai.a.hasOwnProperty(key)) add(key, ai.a[key] * a); }
+  for (const key in ai.a) { if (ai.a.hasOwnProperty(key)) add(key, ai.a[key] * b); }
   let str = '';
   if (ci.p && a > 1) { str += `(${ci.f})${a}`; } else { str += `${ci.f}${a}` }
   if (ai.p && b > 1) { str += `(${ai.f})${b}`; } else { str += `${ai.f}${b}` }

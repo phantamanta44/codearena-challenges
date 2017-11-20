@@ -1,4 +1,4 @@
 {
-  "name": "Linked Loop Length",
+  "name": "Numbers in String",
   "desc": "Write a function `findMax(s: String): Integer` that finds the largest integer substring of a string. For example, `findMax(\"48j299fji39.707qqqq0018\")` would produce `707`."
 }

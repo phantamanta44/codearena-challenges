@@ -40,3 +40,13 @@ The testing framework is a simplified version of the [CodeWars JavaScript testin
 * `Test.expect(value, [message])` - Tests for the truthy-ness of a value.
 * `Test.fail()` - Fails a test.
 At the moment, no facilities exist for partitioning tests into categories (i.e. `describe` or `it`).
+
+## Testing CLI
+You can and should run tests on the CLI before making your PR. Just clone this repository, navigate into it, and run `npm install` to install the necessary dependencies for the testing CLI. Then run the command:
+```
+$ node test.js <code> <tests>
+```
+...to run tests and get results. Node 9.x.x is recommended. For example, you might want to test your fancy new challenge with tests at `cooldude/hard-problem.js`. You write your solution `temp.js` and run the following:
+```
+$ node test.js temp.js cooldude/hard-problem.js
+```

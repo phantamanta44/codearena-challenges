@@ -1,0 +1,16 @@
+{
+  "name": "codearena-testing",
+  "version": "1.0.0",
+  "description": "Runs CodeArena tests on the command line.",
+  "dependencies": {
+    "vm2": "^3.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phantamanta44/codearena-challenges.git"
+  },
+  "engines": {
+    "node": "9.1.x"
+  },
+  "license": "MIT"
+}

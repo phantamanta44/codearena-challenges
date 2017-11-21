@@ -1,0 +1,5 @@
+{
+  "name": "Tree Sum",
+  "desc": "Given the root node in a binary tree where each node is of the form `{left: Node?, right: Node?, value: Integer}`, write a function `sum(n: Node): Integer` that calculates the sum of all nodes in the tree. For example, `sum({value: 1, left: {value: 2, left: null, right: null}, right: {value: 0, left: {value: 3, left: null, right: null}, right: null}})` would produce `6`.",
+  "diff": 1
+}

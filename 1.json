@@ -5,5 +5,8 @@
   }, {
     "ns": "phantamanta44",
     "key": "progressive-sum"
+  }, {
+    "ns": "phantamanta44",
+    "key": "tree-sum"
   }
 ]

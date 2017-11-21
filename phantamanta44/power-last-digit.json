@@ -1,0 +1,5 @@
+{
+  "name": "Last Digit of a Large Power",
+  "desc": "Write a function `last(base: Integer, power: Integer): Integer` that calculates the last digit of `base` to the power of `power`. For example, `last(8497, 771)` would produce `3`, since `8497**771 = 29093212...65175953`, a 3030-digit number.",
+  "diff": 3
+}

@@ -1,6 +1,9 @@
 [
   {
     "ns": "phantamanta44",
-    "key": "molecule-parser"
+    "key": "linked-loop-length"
+  }, {
+    "ns": "phantamanta44",
+    "key": "power-last-digit"
   }
 ]

@@ -1,5 +1,5 @@
 {
   "name": "Linked Loop Length",
   "desc": "Given a tail element of a linked list that eventually loops back on itself, write a function `loop(n: Node): Integer` that calculates the length of the loop, excluding the tail. Each `Node` has a `next` property which holds the next node in the list. You can visualize the loop like this: `a -> b -> c -> d -> e -> c -> d -> ...`. In this case, you might be passed `a`, and you would return `3` because there are 3 elements in the loop.",
-  "diff": 4
+  "diff": 3
 }

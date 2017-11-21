@@ -1,4 +1,5 @@
 {
   "name": "Molecule Parser",
-  "desc": "Write a function `parse(s: String): Object` that pasrses a molecular formula and returns an object of its atoms. For example, `parse('Al2(SO4)3')` would produce `{Al: 2, S: 3, O: 12}`."
+  "desc": "Write a function `parse(s: String): Object` that pasrses a molecular formula and returns an object of its atoms. For example, `parse('Al2(SO4)3')` would produce `{Al: 2, S: 3, O: 12}`.",
+  "diff": 3
 }

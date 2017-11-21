@@ -1,0 +1,5 @@
+{
+  "name": "Chessboard Square Colour",
+  "desc": "Write a function `isWhite(s: String): Boolean` that calculates whether a square on a chessboard is white or not. For example, `isWhite(\"A1\")` would produce `false`.",
+  "diff": 0
+}

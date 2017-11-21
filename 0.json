@@ -2,9 +2,11 @@
   {
     "ns": "phantamanta44",
     "key": "logarithm"
-  },
-  {
+  }, {
     "ns": "phantamanta44",
     "key": "numbers-in-string"
+  }, {
+    "ns": "phantamanta44",
+    "key": "chess-square-colour"
   }
 ]

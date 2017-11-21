@@ -1,0 +1,5 @@
+{
+  "name": "Progressive Sum",
+  "desc": "Write a function `createSum(): Function` that produces a function that calculates the sum of numbers as they are fed to it. For example, we could create a sum function `let sum = createSum();`, then feed it numbers to produce progressive sums: `sum(3)` produces 3, then `sum(2)` produces 5, then `sum(5)` produces 10, etc.",
+  "diff": 1
+}

@@ -2,5 +2,8 @@
   {
     "ns": "phantamanta44",
     "key": "repeat-counter"
+  }, {
+    "ns": "phantamanta44",
+    "key": "progressive-sum"
   }
 ]

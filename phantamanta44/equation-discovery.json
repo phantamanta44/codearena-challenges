@@ -1,0 +1,5 @@
+{
+  "name": "Equation Discovery",
+  "desc": "Given a function `f` representing a constant, linear, or quadratic equation (e.g. `x => 2*x*x + 5*x + 4`), Write a function `coeffs(f: Function): Array` that calculates the coefficients of each term in descending degree. For example, `coeffs(x => 3*x + 5)` would produce the array `[0, 3, 5]`.",
+  "diff": 1
+}

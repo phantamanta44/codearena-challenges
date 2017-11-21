@@ -1,0 +1,5 @@
+{
+  "name": "Sums to Zero?",
+  "desc": "Write a function `sumsToZero(a: Array): Boolean` that checks whether any subarray of an integer array `a` sums to zero. For example, `sumsToZero([2, -3, 7, 1, 5, -6, 11])` would produce `true` because the subarray `[1, 5, -6]` sums to zero. You'll be tested on *very* large arrays!",
+  "diff": 2
+}

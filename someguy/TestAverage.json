@@ -1,1 +1,4 @@
-
+{
+  "name": "Test Average",
+  "desc": "Bob is a CS teacher, and he has finished marking all of the tests he was supposed to! He is lazy, so he wants you to make a program which can calculate the average of his class. The first line of input will be `n`, the number of tests. The next `n` lines will contain the test marks. Output the average of the tests."
+}

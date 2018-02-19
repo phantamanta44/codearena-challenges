@@ -3,7 +3,7 @@ const squares = [...new Array(64).keys()].map(i => {
     const j = i % 8;
     i = (i - j) / 8;
     return {
-      str: letters[i] + j.toString(),
+      str: str: letters[i] + parseInt(j + 1).toString(),
       w: ((i + j) % 2) === 0,
     };
   });
